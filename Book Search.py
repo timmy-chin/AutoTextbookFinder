@@ -12,9 +12,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Paste Chromedriver location below
-Chromedriverlocation = 
+Chromedriverlocation = input("Chromedriver File Location:")
 # Insert the title of the book
-Book = 
+Book = input("Book Title:")
 
 
 browser = webdriver.Chrome(Chromedriverlocation)
